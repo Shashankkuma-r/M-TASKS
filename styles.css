@@ -1,4 +1,4 @@
-/* Reset some default styles for lists and links */
+
 body {
     margin: 0;
     padding: 0;
@@ -10,9 +10,9 @@ ul {
     padding: 0;
 }
 
-/* Style the navbar */
+
 .navbar {
-    background-color: #4b8eff; /* Skublue background color */
+    background-color: #4b8eff; 
     width: 100px;
     height: 40%;
     position: fixed;
@@ -20,12 +20,12 @@ ul {
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right: 2px solid black; /* Add a solid black border */
-    box-sizing: border-box; /* Include border in the width calculation */
-    margin-right: 3px; /* Add a margin to create a gap */
+    border-right: 2px solid black; 
+    box-sizing: border-box; 
+    margin-right: 3px; 
 }
 
-/* Style the navbar links */
+
 .navbar ul li {
     padding: 10px 0;
     text-align: center;
@@ -35,11 +35,11 @@ ul {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 10px 20px; /* Increase padding for a compact look */
+    padding: 10px 20px; 
     transition: background-color 0.3s ease;
 }
 
-/* Highlight color on hover */
+
 .navbar ul li a:hover {
     background-color: orange;
 }
