@@ -1,0 +1,51 @@
+/* Reset some default styles for lists and links */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: lightgrey; /* Light grey background color */
+    width: 40%; /* Set the navbar width to 40% of the viewport width */
+    height: 50px; /* Adjust the height as needed */
+    border-top: 2px solid black; /* Black border at the top */
+    border-bottom: 2px solid black; /* Black border at the bottom */
+}
+
+/* Style the navbar links */
+.navbar ul {
+    display: flex; /* Display links in a row */
+    justify-content: space-around; /* Distribute space evenly */
+    align-items: center; /* Center align items vertically */
+    height: 100%;
+}
+
+.navbar ul li {
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: black; /* Black text color */
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease;
+    border-right: 3px solid white; /* White gap of 3px between links */
+}
+
+/* Dark grey hover color */
+.navbar ul li a:hover {
+    background-color: darkgrey;
+}
+
+/* Highlight color for the active link */
+.navbar ul li a.active {
+    background-color: darkgrey;
+    font-weight: bold;
+}
