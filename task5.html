@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <table border="1" cellspacing="0">
+        <form action="/action_page.php" method="get"></form>
+        <tr>
+            <td>
+                <label for="FullName">Full Name: </label>
+            </td>
+            <td>
+                <input type="text" name="FullName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="LastName">Last Name: </label>
+            </td>
+            <td>
+                <input type="text" name="LastName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Email">Email: </label>
+            </td>
+            <td>
+                <input type="Email" name="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Password">Password: </label>
+            </td>
+            <td>
+                <input type="Password" name="Password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="RePassword">RePassword: </label>
+            </td>
+            <td>
+                <input type="RePassword" name="RePassword">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Gender">Gender: </label>
+            </td>
+            <td>
+                <input type="radio" id="Male" name="Gender" value="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female">Female</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Age">Age: </label>
+            </td>
+            <td>
+                <input type="number" name="Age">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Phone Number">Phone Number: </label>
+            </td>
+            <td>
+                <input type="number" name="Phone Number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Address">Address: </label>
+            </td>
+            <td>
+               <textarea name="Address" id="Address" cols="22" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="State" >State: </label>
+            </td>
+            <td>
+                <input type="text" name="State">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Country">Country:</label>
+            </td>
+            <td>
+                <select name="Country" id="Country">
+                    <option value="Choose">Choose your country</option>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="France">France</option></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Languages known" >Languages known: </label>
+            </td>
+            <td>
+                <input type="checkbox" id="language" name="Language" value="English">
+                <label for="English" >English </label>
+                <input type="checkbox" id="language" name="Language" value="Kannada">
+                <label for="English" >Kannada </label>
+                <input type="checkbox" id="language" name="Language" value="Hindi">
+                <label for="Hindi" >Hindi </label>
+                <input type="checkbox" id="language" name="Language" value="Telugu">
+                <label for="Telugu" >Telugu </label>
+            </td>
+        </tr>
+    </form>
+    </table>
+
+    <table border="1" cellspacing="0" width="398px" >
+        <tbody>
+            <tr>
+                <td>
+                    <input type="checkbox" id="verify" name="verify" value="Hereby, I declare all the given details are true.">
+                    <label for="verify">Hereby, I declare all the given details are true.</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <p>Log in to <a href="https://ethnus.com/">Ethnus</a> website</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="text-align: left">
+        <label for="Register"></label>
+        <input type="button" value="Register">
+    </div>
+</body>
+</html>
