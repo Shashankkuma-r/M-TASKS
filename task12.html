@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12</title>
+</head>
+<style>
+    td,tr{
+        padding: 5px;
+    }
+    html{
+        background-color: rgba(138, 9, 82, 0.912);
+        height: 100vw;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    table{
+        margin-top: 150px;
+    }
+    td,tr,button{
+        color: white;
+    }
+    .no{
+        padding-left: 80px;
+        color: white;
+    }
+
+    .yes{
+        padding-right: 80px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div>
+            <table border="0" style="border-style: none; background-color: rgba(83, 8, 50, 0.795); padding: 10px;">
+                <tr>
+                    <td class="no">Name:</td>
+                    <td class="yes"> 
+                         <input type="text" name="" value="your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">Email:</td>
+                    <td class="yes"> 
+                        <input type="text" name="" value="your email">  
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">Password:</td>
+                    <td class="yes"> 
+                        <input type="password" name="" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">Phone Number:</td>
+                    <td class="yes"> 
+                        <input type="text" name="" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">Gender:</td>
+                    <td class="yes"> 
+                        Male:<input type="radio" name="Gender">
+                        Female:<input type="radio" name="Gender">
+                        Other:<input type="radio" name="Gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">language</td>
+                    <td class="yes"> 
+                        <select>
+                            <option >Select language </option> 
+                            <option >Hindi</option> 
+                            <option >English</option> 
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">Zip Code:</td>
+                    <td class="yes"> 
+                        <input type="text" name="" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no">About:</td>
+                    <td class="yes"> 
+                        <textarea cols="20" rows="2"> </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="no yes" colspan="2"><button type="submit" style="width: 100%; background-color: white; color: black; display: inline-block; padding: 5px;border: 0px;"><b>Register</b></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
